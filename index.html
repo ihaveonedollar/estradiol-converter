@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Estradiol Converter: pg/mL to pmol/L Calculator</title>
+  <meta
+    name="description"
+    content="Instantly convert estradiol between pg/mL and pmol/L with a free, accurate calculator. Compare laboratory results and understand estradiol units."
+  >
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#fcfcfa">
+
+  <link rel="canonical" href="https://estradiolconverter.com/">
+  <link rel="alternate" hreflang="en" href="https://estradiolconverter.com/">
+  <link rel="alternate" hreflang="x-default" href="https://estradiolconverter.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Estradiol Converter">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Estradiol Converter: pg/mL to pmol/L Calculator">
+  <meta
+    property="og:description"
+    content="Instantly convert estradiol between pg/mL and pmol/L with a free, accurate calculator."
+  >
+  <meta property="og:url" content="https://estradiolconverter.com/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Estradiol Converter: pg/mL to pmol/L Calculator">
+  <meta
+    name="twitter:description"
+    content="Instantly convert estradiol between pg/mL and pmol/L with a free, accurate calculator."
+  >
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://estradiolconverter.com/#website",
+        "url": "https://estradiolconverter.com/",
+        "name": "Estradiol Converter",
+        "description": "A free online estradiol unit conversion calculator.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://estradiolconverter.com/#application",
+        "url": "https://estradiolconverter.com/",
+        "name": "Estradiol Converter",
+        "description": "Instantly converts estradiol values between pg/mL and pmol/L.",
+        "applicationCategory": "HealthApplication",
+        "applicationSubCategory": "Medical calculator",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "isAccessibleForFree": true,
+        "featureList": [
+          "Convert estradiol from pg/mL to pmol/L",
+          "Convert estradiol from pmol/L to pg/mL",
+          "Live conversion as values are entered"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "isPartOf": {
+          "@id": "https://estradiolconverter.com/#website"
+        },
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <article class="converter" aria-labelledby="page-title">
+      <header class="converter__header">
+        <p class="eyebrow">Hormone unit converter</p>
+        <h1 id="page-title">Estradiol Unit Converter</h1>
+        <p class="intro">Convert estradiol values instantly between pg/mL and pmol/L.</p>
+      </header>
+
+      <section class="converter__fields" aria-label="Estradiol conversion calculator">
+        <label class="field">
+          <span class="field__label" id="from-label">Estradiol in pg/mL</span>
+          <span class="field__control">
+            <input
+              id="from-value"
+              type="text"
+              inputmode="decimal"
+              autocomplete="off"
+              placeholder="Enter a value"
+              aria-describedby="conversion-note"
+            >
+            <span class="field__unit" id="from-unit">pg/mL</span>
+          </span>
+        </label>
+
+        <button class="swap-button" id="swap-button" type="button" aria-label="Swap conversion direction">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 7h11m0 0-3-3m3 3-3 3M17 17H6m0 0 3 3m-3-3 3-3"/>
+          </svg>
+          <span>Swap units</span>
+        </button>
+
+        <label class="field">
+          <span class="field__label" id="to-label">Estradiol in pmol/L</span>
+          <span class="field__control field__control--result">
+            <input
+              id="to-value"
+              type="text"
+              inputmode="decimal"
+              autocomplete="off"
+              placeholder="Converted value"
+              aria-live="polite"
+            >
+            <span class="field__unit" id="to-unit">pmol/L</span>
+          </span>
+        </label>
+      </section>
+
+      <p class="conversion-note" id="conversion-note">
+        1 pg/mL = 3.671 pmol/L
+      </p>
+
+      <aside class="ad-slot" aria-label="Advertisement">
+        <span class="ad-slot__label">Advertisement</span>
+
+        <!--
+          Paste your ad network code inside this container after approval.
+          Example: a responsive Google AdSense unit.
+        -->
+        <div class="ad-slot__space" aria-hidden="true"></div>
+      </aside>
+
+      <section class="explainer" aria-labelledby="explainer-title">
+        <h2 id="explainer-title">Why do different laboratories report estradiol in different units?</h2>
+
+        <p>Different laboratories and countries use different measurement systems.</p>
+
+        <p>Some report estradiol in pg/mL (picograms per millilitre), while others use pmol/L (picomoles per litre).</p>
+
+        <p>The result represents the same hormone concentration—only the unit of measurement is different, much like reporting temperature in Celsius or Fahrenheit.</p>
+
+        <p>This converter allows you to accurately convert between the two units when comparing blood tests, reading medical literature, or discussing results with healthcare professionals.</p>
+      </section>
+
+      <p class="disclaimer" id="disclaimer">
+        This tool provides unit conversion only and is not a substitute for medical advice or interpretation from a qualified healthcare professional.
+      </p>
+    </article>
+  
+    <footer class="site-footer">
+      <p>&copy; 2026 Estradiol Converter</p>
+      <nav aria-label="Footer">
+        <a href="privacy.html">Privacy Policy</a>
+        <span>&bull;</span>
+        <a href="mailto:hello@estradiolconverter.com">Contact</a>
+        <span>&bull;</span>
+        <a href="#disclaimer">Medical Disclaimer</a>
+      </nav>
+    </footer>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
